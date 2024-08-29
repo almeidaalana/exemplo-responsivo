@@ -1,1 +1,10 @@
-
+@import url("estilos/header.css");
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap'
+:root{
+    --amarelo: #d7d7d7; --fundo-azul: #23239de4;
+    --lilas: #a510a5; --fonte-projeto: "Dosis";
+}
+body{
+    background-color: var(--amarelo);
+    margin: 0; font-family: var(--fonte-projeto);
+}
